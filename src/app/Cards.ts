@@ -46,14 +46,14 @@ export class UnoDeck {
         for(i=0; i<4; i++)
             {
                 let c:Card={
-                    value:4, /////////??????????????
+                    value:50,
                     colour:"Wild",
                     imageUrl:`/assets/uno_deck/uno_deck/c4_00.png`
                 }
                 this.cards.push(c);
 
                 let c2:Card={
-                    value:4,////////////????
+                    value:50,
                     colour:"plusFour",
                     imageUrl:`/assets/uno_deck/uno_deck/c4_01.png`
                 }

@@ -9,8 +9,6 @@ import {UnoDeck, Card} from '../Cards';
 export class CartComponent implements OnInit {
 
   @Output()
-  //onStart:EventEmitter<number[]>=new EventEmitter<number[]>();
-  //onTakeSeven:EventEmitter<string[]>=new EventEmitter<string[]>();
 
   @Input()
   playerCount:number;

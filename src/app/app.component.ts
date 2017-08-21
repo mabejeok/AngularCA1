@@ -7,11 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-
-  //public players:number[]=[];
-
-  /*whenStarted(numPlayers: number[]): void {
-    this.players=[];
-    this.players=numPlayers;
-  }*/
 }
